@@ -1,0 +1,20 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "An app that gives you possible names for your dog based on looks and personality traits",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jewel0106/name-my-pup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jewel0106/name-my-pup/issues"
+  },
+  "homepage": "https://github.com/Jewel0106/name-my-pup#readme"
+}
