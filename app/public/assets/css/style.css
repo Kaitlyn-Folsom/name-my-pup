@@ -1,0 +1,16 @@
+body, html {
+  margin:0;
+  padding:0;
+  font-size:20px;
+}
+
+form {
+  border:1px solid #000;
+}
+
+.jumbotron {
+  background-image: url("http://images.mentalfloss.com/sites/default/files/styles/mf_image_16x9/public/doge.png?itok=3mQ7N3-a&resize=1100x619");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

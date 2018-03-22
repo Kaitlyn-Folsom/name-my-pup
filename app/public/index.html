@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
   <title>Name My Pup</title>
-  <!-- Latest compiled and minified CSS & JS -->
-  <link rel="stylesheet" href="../assets/css/style.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://code.jquery.com/jquery.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
+  	<!-- Meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The app that gives a name to your pup based on looks and personality">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+	<!-- CSS Link -->
+  <link href="assets/css/style.css" rel="stylesheet">
 </head>
 <body>
 
-  <div class="container">
-    <div class="jumbotron">
-      <h1>Name My Pup</h1>
-      <hr>
-        <h2>The playdate matching app for dogs</h2>
-        <h3>Answer a few basic questions about your fur friend and find them their next best fur friend.</h3>
-      <br>
-      <a href="/survey"><button type="button" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-list-alt"></span> Go to Survey</button></a>
-    </div><!-- End jumbotron -->
+	<div class="jumbotron">
+		<h1 class="display-4">Name My Pup!</h1>
+		<p class="lead">Have you recently adopted a new pup into your family and dont' have any good name ideas? Just enter your pup's physical and personality information and receive name options.</p>
+		<hr class="my-4">
+		<p>Or browse through our extensive list of dog breeds and name matches for those breeds.</p>
+		<p class="lead">
+			<a class="btn btn-primary btn-lg" href="/dogs" role="button">Find my pup's name!</a>
+			<a class="btn btn-primary btn-lg" href="/nameList" role="button">Search dog names!</a>
+			<a class="btn btn-primary btn-lg" href="/randomize" role="button">Give me a random name!</a>
+		</p>
+	</div>
 
-  <div class="row">
-    <div class="col-lg-12">
-      <footer class="footer">
-        <div class="container">
-            <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/Jewel0106/name-my-pup" target="_blank">Github Repo</a></p>
-        </div>
-      </footer>
-    </div>
-  </div>
+	<a href="/api/dogs">API</a>
 
-  </div> <!--End Container-->
+	<!-- JQuery Link -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-
+  <!-- Bootstrap Script Links -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
 </html>
